@@ -1,4 +1,41 @@
 .App {
-  text-align: center;
   display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.contact-data {
+  background-color: burlywood;
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.contact-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 50%;
+}
+img{
+  border-radius: 50%;
+  width: 150px;
+  padding: 2px;
+  margin: 5px;
+}
+img:hover {
+  box-shadow: 0 0 10px 0px grey;
 }
